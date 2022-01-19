@@ -17,6 +17,7 @@
 
 .highlight-img{
     width: 73px;
+    cursor: pointer;
 }
 
 .highlight-text{
@@ -30,6 +31,7 @@
     font-size: 14px;
     line-height: 16px;
     color: #8E8E8E;
+    cursor: pointer;
 }
 
 .highlight-text strong{
@@ -53,6 +55,7 @@
 
 .suggestions-header strong{
     color: #262626;
+    cursor: pointer;
 }
 
 .suggestions{
@@ -60,6 +63,7 @@
     height: 48px;
 
     display: flex;
+    cursor: pointer;
 }
 
 .suggestions-img{
