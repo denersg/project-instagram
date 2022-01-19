@@ -1,7 +1,7 @@
 .sidebar{
-    background-color: orange;
+    /* background-color: orange; */
     width: 293px;
-    height: 400px;
+    height: 435px;
 
     /* Inserir o 'position' como 'sticky' fará com que ele fique
     fixo na tela quando rolarmos a página para baixo. */
@@ -56,20 +56,20 @@
 }
 
 .suggestions{
-    background-color: turquoise;
+    /* background-color: turquoise; */
     height: 48px;
 
     display: flex;
 }
 
 .suggestions-img{
-    background-color: violet;
+    /* background-color: violet; */
     height: 32px;
     width: 43px;
 }
 
 .suggestions-people{
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 216px;
     height: 32px;
     
@@ -93,7 +93,7 @@
 }
 
 .suggestions-follow{
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     height: 32px;
     
     font-weight: 500;
@@ -103,4 +103,21 @@
 
     display: flex;
     align-items: center;
+}
+
+.about-copyright{
+    /* background-color: hotpink; */
+    height: 74px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 5px;
+
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #C7C7C7;
 }
