@@ -1,0 +1,17 @@
+.content{
+    /* background-color: dodgerblue; */
+    width: 935px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.feed{
+    /* background-color: purple; */
+    width: 614px;
+}
+
