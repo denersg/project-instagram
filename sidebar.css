@@ -1,10 +1,106 @@
 .sidebar{
     background-color: orange;
-    width: 300px;
+    width: 293px;
     height: 400px;
 
     /* Inserir o 'position' como 'sticky' fará com que ele fique
     fixo na tela quando rolarmos a página para baixo. */
     position: sticky;
-    top: 88px;
+    top: 111px;
+}
+
+.highlight{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+
+.highlight-img{
+    width: 73px;
+}
+
+.highlight-text{
+    /* background-color: red; */
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8E8E8E;
+}
+
+.highlight-text strong{
+    font-weight: 500;
+    color: #262626;
+}
+
+.suggestions-header{
+    /* background-color: thistle; */
+    height: 56px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+
+.suggestions-header strong{
+    color: #262626;
+}
+
+.suggestions{
+    background-color: turquoise;
+    height: 48px;
+
+    display: flex;
+}
+
+.suggestions-img{
+    background-color: violet;
+    height: 32px;
+    width: 43px;
+}
+
+.suggestions-people{
+    background-color: tomato;
+    width: 216px;
+    height: 32px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.suggestions-name{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.suggestions-status{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+
+.suggestions-follow{
+    background-color: yellowgreen;
+    height: 32px;
+    
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139EF2;
+
+    display: flex;
+    align-items: center;
 }
