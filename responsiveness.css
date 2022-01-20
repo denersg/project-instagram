@@ -4,6 +4,27 @@
     }
     
     .content{
+        width: 100%;
         justify-content: center;
+    }
+
+    .container{
+        width: 95%;
+    }
+}
+
+@media(max-width: 614px){
+    .search, .compass, .heart, .person, .vertical-line-home{
+        background-color: hotpink;
+        display: none;
+    }
+
+    .logo-instagram-name{
+        position: absolute;
+        left: 40%;
+    }
+    
+    .top-menu{
+        width: 20px;
     }
 }
