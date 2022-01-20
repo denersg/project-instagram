@@ -14,7 +14,7 @@
 }
 
 @media(max-width: 614px){
-    .search, .compass, .heart, .person, .vertical-line-home{
+    .search, .compass, .heart, .person, .vertical-line-home, .scroll{
         background-color: hotpink;
         display: none;
     }
@@ -26,5 +26,13 @@
     
     .top-menu{
         width: 20px;
+    }
+
+    .feed{
+        width: 100%;
+    }
+
+    .post-photo img{
+        width: 100%;
     }
 }
