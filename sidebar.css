@@ -1,5 +1,4 @@
 .sidebar{
-    /* background-color: orange; */
     width: 293px;
     height: 435px;
 
@@ -10,7 +9,6 @@
 }
 
 .highlight{
-    /* background-color: aqua; */
     display: flex;
     align-items: center;
 }
@@ -21,7 +19,6 @@
 }
 
 .highlight-text{
-    /* background-color: red; */
     height: 34px;
     display: flex;
     flex-direction: column;
@@ -40,7 +37,6 @@
 }
 
 .suggestions-header{
-    /* background-color: thistle; */
     height: 56px;
 
     display: flex;
@@ -59,7 +55,6 @@
 }
 
 .suggestions{
-    /* background-color: turquoise; */
     height: 48px;
 
     display: flex;
@@ -67,13 +62,11 @@
 }
 
 .suggestions-img{
-    /* background-color: violet; */
     height: 32px;
     width: 43px;
 }
 
 .suggestions-people{
-    /* background-color: tomato; */
     width: 216px;
     height: 32px;
     
@@ -97,7 +90,6 @@
 }
 
 .suggestions-follow{
-    /* background-color: yellowgreen; */
     height: 32px;
     
     font-weight: 500;
@@ -110,7 +102,6 @@
 }
 
 .about-copyright{
-    /* background-color: hotpink; */
     height: 74px;
 
     display: flex;

@@ -29,14 +29,12 @@ a{
 }
 
 .container{
-    /* background-color: red; */
     width: 935px;
     display: flex;
     justify-content: space-between;
 }
 
 .home{
-    /* background-color: hotpink; */
     width: 140px;
 
     display: flex;
@@ -72,7 +70,6 @@ a{
 }
 
 .top-menu{
-    /* background-color: aqua; */
     width: 140px;
 
     display: flex;

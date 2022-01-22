@@ -1,5 +1,4 @@
 .content{
-    /* background-color: dodgerblue; */
     width: 935px;
 
     display: flex;
@@ -11,7 +10,6 @@
 }
 
 .feed{
-    /* background-color: purple; */
     width: 614px;
 }
 

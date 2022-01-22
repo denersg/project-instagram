@@ -3,18 +3,15 @@
 
     border: 1px solid #dbdbdb;
     border-radius: 3px;
-    height: 749px;
 
     margin-bottom: 60px;
     position: relative;
 }
 
 .header-post{
-    /* background-color: blueviolet; */
     height: 60px;
 
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 
     position: relative;
@@ -38,42 +35,58 @@
     font-size: 20px;
 }
 
-.footer-post a{
-    color: black;
+.post-photo .video{
+    width: 100%;
+}
 
+.post-photo .stickman{
+    width: 100%;
+}
+
+.footer-post a{
     font-size: 20px;
+    color: black;
+}
+
+.footer-post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-interactivity{
+    width: 95%;
+    height: 38px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .interactivity{
-    /* background-color: palevioletred; */
     width: 88px;
 
     display: flex;
     justify-content: space-between;
-    
-    position: absolute;
-    left: 18px;
-    top: 685px;
 }
 
-.bookmark{
-    position: absolute;
-    right: 18px;
-    top: 685px;
+.like{
+    width: 95%;
+    height: 32px;
+
+    margin-bottom: 6px;
+
+    display: flex;
+    align-items: center;
 }
 
-.footer-post img{
+.like img{
     width: 20px;
-
-    position: absolute;
-    top: 715px;
-    left: 17px;
+    height: 20px;
 }
 
-.footer-post p{
-    position: absolute;
-    top: 717px;
-    left: 42px;
+.like p{
+    margin-left: 5px;
 
     font-style: normal;
     font-weight: 300;
@@ -81,6 +94,6 @@
     line-height: 16px;
 }
 
-.footer-post span{
+.like span{
     font-weight: 500;
 }

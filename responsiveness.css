@@ -13,9 +13,14 @@
     }
 }
 
+@media(max-width: 5000px){
+    .fixed-bar{
+        display: none;
+    }
+}
+
 @media(max-width: 614px){
     .search, .compass, .heart, .person, .vertical-line-home, .scroll{
-        background-color: hotpink;
         display: none;
     }
 
@@ -37,7 +42,6 @@
     }
 
     .fixed-bar{
-        /* background-color: dodgerblue; */
         background-color: #fff;
         height: 54px;
         width: 100%;
@@ -50,7 +54,6 @@
     }
 
     .content-fixed-bar{
-        /* background-color: chartreuse; */
         width: 95%;
 
         display: flex;
