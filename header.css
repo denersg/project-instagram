@@ -79,3 +79,7 @@ a{
     color: #000000;
     font-size: 20px;
 }
+
+.top-menu ion-icon, .home ion-icon, .home img{
+    cursor: pointer;
+}

@@ -22,6 +22,7 @@
 
     position: absolute;
     left: 17px;
+    border-radius: 50%;
 }
 
 .header-post span{
@@ -39,7 +40,7 @@
     width: 100%;
 }
 
-.post-photo .stickman{
+.post-photo .stickman, .post-photo img{
     width: 100%;
 }
 
@@ -96,4 +97,8 @@
 
 .like span{
     font-weight: 500;
+}
+
+.header-post img, .header-post span, .header-post ion-icon{
+    cursor: pointer;
 }
