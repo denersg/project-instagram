@@ -33,7 +33,6 @@
 
 .highlight-text strong{
     font-weight: 500;
-    color: #262626;
 }
 
 .suggestions-header{
@@ -50,7 +49,6 @@
 }
 
 .suggestions-header strong{
-    color: #262626;
     cursor: pointer;
 }
 
@@ -79,7 +77,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #262626;
 }
 
 .suggestions-status{
@@ -115,4 +112,8 @@
     line-height: 13px;
 
     color: #C7C7C7;
+}
+
+.highlight-text strong, .suggestions-header strong, .suggestions-name{
+    color: #262626;
 }
